@@ -1,0 +1,43 @@
+@import url('css/header.css');
+@import url('css/banner.css');
+@import url('css/carrossel.css');
+@import url('css/topicos.css');
+@import url('css/contato.css');
+@import url('css/footer.css');
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-footer: #F9F9F9;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --titulo-laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul-h2: #002F52;
+    --item-titulo-rodape: #858585;
+    --item-rodape: #474646;
+
+    
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans"
+
+    --fonte-size-h2: 1.1rem;
+    --fonte-size-secundaria: 0.875rem;
+    --fonte-size-titulo: 1.875rem;
+    --fonte-size-titulo-banner: 2rem;
+    --fonte-size-titulo-carrossel: 1.625rem;
+    --fonte-size-titulo-topicos-contato: 1.5rem;
+    --fonte-size-header-desktop: 1.25rem
+}
+
+body {
+    /* fixar tela máxima de 1728px e centralizada
+    max-width: 1728px;
+    display: block;
+    margin: 0 auto; */
+    background-color: var(--cor-de-fundo);
+    font-size: 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+

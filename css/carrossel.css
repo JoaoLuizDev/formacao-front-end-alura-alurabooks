@@ -1,0 +1,156 @@
+.carrossel__titulo {
+    color: var(--titulo-laranja);
+    background-color: var(--branco);
+    text-align: center;
+    font-size: var(--fonte-size-h2);
+    font-weight: 700;
+    padding: 1.25rem 0 0.5rem 0;
+    text-transform: uppercase;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.75rem 0 1rem 0;
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin: 1.25rem 1.5rem;
+    padding: 1.25rem 1rem 1.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__descrição {
+    display: flex;
+}
+
+.descrição__titulo {
+    font-weight: 700;
+    color: var(--titulo-laranja);
+    margin-bottom: 0.5rem;
+}
+
+.descrição__titulo__livro {
+    font-size: var(--fonte-size-h2);
+    font-weight: 700;
+    color: var(--azul-h2);
+    margin-bottom: 0.5rem;
+}
+
+.descrição__titulo__texto {
+    font-size: var(--fonte-size-secundaria);
+    margin-right: 2.375rem;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.botões {
+    display: flex;
+    align-items: center;
+}
+
+.botões__item {
+    margin: 0 0.5rem 0.375rem 0.5rem;
+}
+
+.botões__ancora {
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--titulo-laranja);
+    padding: 1rem 2.2rem;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: var(--fonte-size-titulo-carrossel);
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+
+    .swiper {
+        padding-top: 1rem;
+        width: 60%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .swiper-button-prev {
+        display: block;
+        top: 60%;
+        content: url("../assets/FABprev.png");
+    }
+
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+        content: url("../assets/FABnext.png");
+    }
+
+    .card {
+        width: 45%;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__titulo {
+        padding-top: 3rem;
+    }
+
+    .carrossel__container {
+        display: flex;
+        margin: 1em 20vw 5em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        margin: 2rem 0 0 3rem;
+        width: 60%;
+    }
+
+    .descrição__titulo {
+        font-size: var(--fonte-size-titulo-banner);
+        font-weight: 700;
+        margin-bottom: 1rem;
+    } 
+
+    .descrição__titulo__livro {
+        margin-bottom: 1rem;
+    }
+
+    .swiper-wrapper {
+        padding-right: 0.5rem ;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: auto !important;
+        height: auto !important;
+    }
+}
