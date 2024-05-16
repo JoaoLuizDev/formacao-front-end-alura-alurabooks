@@ -35,4 +35,5 @@ O projeto trabalha com o conceito de mobile-first. Com esse conceito, será cons
 
 
 ## Deploy
-**link:**  https://formacao-front-end-alura-green.vercel.app
+**Link Vercel:** https://formacao-front-end-alura-alurabooks.vercel.app/  
+**Link GitHub Pages** https://joaoluizdev.github.io/formacao-front-end-alura-alurabooks/
