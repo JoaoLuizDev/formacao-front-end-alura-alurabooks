@@ -1,4 +1,4 @@
-<h1 align="center">Curso 6</h1> 
+<h1 align="center">Curso CSS</h1> 
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
 
@@ -11,7 +11,7 @@
 ---
 ### Sobre o Projeto
 
-Este diretório foi criado para armazenar o projeto desenvolvido durante o Curso 6 de HTML e CSS da Alura.  
+Este diretório foi criado para armazenar o projeto desenvolvido durante o Curso 1, da Formação "CSS: aprofunde em estilos", da Alura.  
 
 O projeto trabalha com o conceito de mobile-first. Com esse conceito, será construída página do AluraBooks. No Figma, foram disponibilizados três tipos de tamanhos de layout: o 428, o 1024 e o 1728, ou seja,  mobile, tablet e desktop, respectivamente. 
 
